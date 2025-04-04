@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>PBL2.BLL</RootNamespace>
+    <AssemblyName>PBL2.BLL</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PBL2.DTO\PBL2.DTO.csproj" />
+    <ProjectReference Include="..\PBL2.DAL\PBL2.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
